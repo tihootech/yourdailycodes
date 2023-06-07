@@ -23,8 +23,8 @@
             <div class="vid-info">
                 <div class="vid-section">
                     <p> I am currently recording </p>
-                    <a class="btn" href="https://www.youtube.com/watch?v=BoTYFC5sr8c&list=PLK-iH9NhQtRMo9bx2aiDVFlHrw1ABITG4" target="_blank">
-                        HTML-CSS For Absolute Beginners
+                    <a class="btn" href="{{$settings->playlist}}" target="_blank">
+                        {{$settings->course}}
                         <div class="icon">
                             <span class="hover-text"> open course </span>
                             <i class="material-symbols-outlined">arrow_forward_ios</i>
@@ -57,8 +57,8 @@
                 </div>
                 <div class="vid-section">
                     <p> Latest recorded video </p>
-                    <a class="btn" href="https://www.youtube.com/watch?v=BoTYFC5sr8c&list=PLK-iH9NhQtRMo9bx2aiDVFlHrw1ABITG4" target="_blank">
-                        Season 1 - Episode 2
+                    <a class="btn" href="{{$settings->latest}}" target="_blank">
+                        Season {{$settings->season}} - Episode {{$settings->episode}}
                         <div class="icon">
                             <span class="hover-text"> watch this video </span>
                             <i class="material-symbols-outlined">videocam</i>

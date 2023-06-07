@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    $settings = \App\Models\Setting::first();
+    $settings = json_decode($settings->values);
+    return view('welcome', compact('settings'));
 });
 
 Route::redirect('downloads', '/');
