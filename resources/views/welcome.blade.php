@@ -30,6 +30,13 @@
                             <i class="material-symbols-outlined">arrow_forward_ios</i>
                         </div>
                     </a>
+                    <a class="btn" href="{{asset('files/HTML-CSS-Files.zip')}}" download>
+                        download files for HTML-CSS codes
+                        <div class="icon">
+                            <span class="hover-text"> click to download </span>
+                            <i class="material-symbols-outlined">download</i>
+                        </div>
+                    </a>
                 </div>
                 <div class="vid-section">
                     <div class="socials">
