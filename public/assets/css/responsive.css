@@ -1,0 +1,143 @@
+
+/* EXTRA LARGE DISPLAY */
+
+.content {
+    top: 10%;
+    right: 20%;
+    left: 20%;
+}
+
+.content > .card {
+    height: 60vh;
+}
+
+.content > .card::before {
+    height: 180vh;
+}
+
+.content > .card > .heading {
+    font-size: 2.5em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content > .card > .vid-info {
+    display: flex;
+    justify-content:space-around;
+    align-self: stretch;
+}
+
+.content > .card > .vid-info > .vid-section {
+    padding: 10px;
+}
+
+.content > .card > .vid-info > .vid-section > p {
+    font-size: 1.75em;
+    margin: 15px 0;
+    line-height: 1.75em;
+}
+
+/* LARGE DISPLAY */
+
+@media only screen and (max-width: 1280px) {
+
+    .content {
+        top: 10%;
+        right: 10%;
+        left: 10%;
+    }
+
+    .content > .card > .work-in-progress {
+        display: none;
+    }
+
+}
+
+/* MEDIUM DISPLAY */
+
+@media only screen and (max-width: 1024px) {
+
+    .content {
+        top: 5%;
+        right: 5%;
+        left: 5%;
+    }
+
+    .content > .card {
+        height: 70vh;
+    }
+
+    .content > .card > .heading {
+        font-size: 2.25em;
+        margin-top: 20px;
+    }
+
+    .content > .card > .vid-info > .vid-section > p {
+        font-size: 1.67em;
+        margin: 10px 0;
+        line-height: 1.67em;
+    }
+
+}
+
+@media only screen and (max-width: 920px) {
+
+    .content > .card > .vid-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content > .card > .vid-info > .vid-section > p {
+        font-weight: 800;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+
+    .content > .card > .heading {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 540px) {
+    .content > .card {
+        height: 90vh;
+    }
+    .content > .card > .heading {
+        font-size: 1.75em;
+        margin-bottom: 10px;
+    }
+    .content > .card > .vid-info > .vid-section > p {
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    .content {
+        top: 3%;
+        right: 3%;
+        left: 3%;
+    }
+
+    .content > .card {
+        height: 96vh;
+    }
+
+    .content > .card > .heading {
+        font-size: 1.25em;
+        margin-bottom: 0;
+    }
+
+    .content > .card > .vid-info > .vid-section > p {
+        font-size: 1.125em;
+        font-weight: 600;
+    }
+
+    .btn {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}

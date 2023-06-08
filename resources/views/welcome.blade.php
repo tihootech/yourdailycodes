@@ -7,7 +7,8 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="icon" href="{{asset('assets/img/favicon.png')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/styles.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/styles.css')}}?v=2.1">
+    <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}?v=2.1">
 </head>
 <body>
 
@@ -31,7 +32,7 @@
                         </div>
                     </a>
                     <a class="btn" href="{{asset('files/HTML-CSS-Files.zip')}}" download>
-                        download files for HTML-CSS codes
+                        Download Files For HTML-CSS Course
                         <div class="icon">
                             <span class="hover-text"> click to download </span>
                             <i class="material-symbols-outlined">download</i>
